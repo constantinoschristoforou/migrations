@@ -571,4 +571,16 @@ class CakeAdapter implements AdapterInterface
     {
         return $this->adapter->dropDatabase($name);
     }
+	
+	/**
+     * Inserts data into the table
+     *
+     * @param Table $table where to insert data
+     * @param array $columns column names
+     * @param $data
+     */
+    public function insert(Table $table, $columns, $data){
+
+    }
+	
 }
